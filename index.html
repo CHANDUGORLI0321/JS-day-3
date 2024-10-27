@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+   <h1>Java Script Day3 Task</h1>
+
+
+
+    <script>
+        //Even/Odd 
+    let num = prompt('Enter a number');
+
+     // check the condition
+    let a = (num %2== 0) ? 'even' : 'odd';
+
+    console.log("it is "  + a + " number");
+
+
+       //Grade classification
+    let marks=+prompt("enter your marks");
+    let b= (marks >=90)? "Grade A":
+           (marks >=75)? "Grade B":
+           (marks >=60)? "Grade C":
+           (marks >=45)? "Grade D":
+              "fail";
+    console.log(b);
+
+
+       //Age Group
+    let age= prompt("Enter Your Age")
+    let c= ( age <=12)? "Child":
+           ( age <=19)? "Teen":
+           ( age <=65)? "Adult":
+           "senior";
+    console.log(c);
+
+
+
+         //Temperature Check
+    let temp= prompt("Enter a Temp")
+    let d= (temp <10)? "Cold":
+           (temp <20)? "Cool":
+           (temp <30)? "Warm": "Hot"; 
+    console.log(d);
+
+
+    
+    
+    
+
+
+
+
+    </script>
+</body>
+</html>
